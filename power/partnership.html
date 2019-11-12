@@ -21,7 +21,7 @@
       </div>
     </header>
     <main class="body__content">
-      <div class="intro block block_purple">
+      <div class="intro block block_purple js-scrolling-section">
         <div class="intro__wrapper block__wrapper">
           <div class="intro__vertical-text intro__vertical-text_left-side">Power | 2019</div>
           <div class="intro__vertical-text intro__vertical-text_right-side">Партнёрская программа</div>
@@ -60,7 +60,7 @@
                 </div>
               </div>
               <div class="intro__item intro__item_lg-pos-a">
-                <div class="action action_scroll-down">
+                <div class="action action_scroll-down js-scroll-down">
                   <div class="action__main">
                     <div class="action__image">
                       <svg width="132" height="131" viewBox="0 0 132 131">
@@ -141,52 +141,14 @@
         <div class="projects__wrapper block__wrapper">
           <div class="projects__title section-title">Наши проекты<span> (каталог офферов)</span></div>
           <ul class="tabs" data-tabs="data-tabs">
-            <li class="tabs__item"><a data-tabby-default="data-tabby-default" href="#alivaVelvet">Aliva Velvet</a></li>
+            <li class="tabs__item"><a data-tabby-default="data-tabby-default" href="#alinaVelvet">Aliva Velvet</a></li>
             <li class="tabs__item"><a href="#polinaStory">Polina Story</a></li>
             <li class="tabs__item"><a href="#imagination">Imagination</a></li>
           </ul>
           <div class="tab" id="alinaVelvet">
             <div class="tab__side">
               <div class="hero">
-                <div class="hero__wrapper">
-                  <div class="hero__main">
-                    <div class="hero__row">
-                      <div class="hero__item">
-                        <div class="hero__image"><img class="hero__img" src="images/velvet-logo.png" alt="Логотип компании" /></div>
-                      </div>
-                      <div class="hero__item"><span>Авторский кондитреский блог</span></div>
-                    </div>
-                    <div class="hero__row hero__row_actions">
-                      <div class="hero__item"><a class="hero-action" href="#" title="Ссылка на аккаунт в Instagram">
-                          <div class="hero-action__main">
-                            <div class="hero-action__icon hero-action__icon_inst">
-                              <svg width="18" height="18" viewBox="0 0 18 18">
-                                <use xlink:href="images/sprite.svg#inst"></use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div class="hero-action__side">
-                            <div>64 000 +</div><span>Подписчиков</span>
-                          </div>
-                        </a></div>
-                      <div class="hero__item"><a class="hero-action" href="#" title="Ссылка на группу в VK">
-                          <div class="hero-action__main">
-                            <div class="hero-action__icon hero-action__icon_vk">
-                              <svg width="20" height="11" viewBox="0 0 20 11">
-                                <use xlink:href="images/sprite.svg#vk"></use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div class="hero-action__side">
-                            <div>64 000 +</div><span>Подписчиков</span>
-                          </div>
-                        </a></div>
-                    </div>
-                  </div>
-                  <div class="hero__side">
-                    <div class="hero__image"><img class="hero__img" src="images/woman.png" /></div>
-                  </div>
-                </div>
+                <div class="hero__overlays"><img class="hero__overlay hero__overlay_bg" src="images/hero-overlay-1.jpg" /><img class="hero__overlay hero__overlay_person" src="images/hero-overlay-2.png" /></div>
               </div>
             </div>
             <div class="tab__main">
@@ -287,6 +249,116 @@
               </div>
             </div>
           </div>
+          <div class="tab" id="polinaStory">
+            <div class="tab__main">
+              <div class="tab__item"><a class="project-card" href="#" title="Узнать подробнее">
+                  <div class="project-card__wrapper">
+                    <div class="project-card__header">
+                      <div class="project-card__image"><img class="project-card__img" src="images/fashion-illustration.jpg" atl="Изображение проекта" /></div>
+                    </div>
+                    <div class="project-card__content">
+                      <div class="project-card__title">Fashion Иллюстрация</div>
+                    </div>
+                    <div class="project-card__footer">
+                      <div class="project-card__link link" href="#" title="Узнать подробнее">Узнать подробнее<span class="link__icon">
+                          <svg width="18" height="18" viewBox="0 0 18 18">
+                            <use xlink:href="images/sprite.svg#link"></use>
+                          </svg></span></div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="tab__item"><a class="project-card" href="#" title="Узнать подробнее">
+                  <div class="project-card__wrapper">
+                    <div class="project-card__header">
+                      <div class="project-card__image"><img class="project-card__img" src="images/gotic.jpg" atl="Изображение проекта" /></div>
+                    </div>
+                    <div class="project-card__content">
+                      <div class="project-card__title">Готическая Каллиграфия</div>
+                    </div>
+                    <div class="project-card__footer">
+                      <div class="project-card__link link" href="#" title="Узнать подробнее">Узнать подробнее<span class="link__icon">
+                          <svg width="18" height="18" viewBox="0 0 18 18">
+                            <use xlink:href="images/sprite.svg#link"></use>
+                          </svg></span></div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="tab__item"><a class="project-card" href="#" title="Узнать подробнее">
+                  <div class="project-card__wrapper">
+                    <div class="project-card__header">
+                      <div class="project-card__image"><img class="project-card__img" src="images/calligraphy.jpg" atl="Изображение проекта" /></div>
+                    </div>
+                    <div class="project-card__content">
+                      <div class="project-card__title">Каллиграфия для начинающих</div>
+                    </div>
+                    <div class="project-card__footer">
+                      <div class="project-card__link link" href="#" title="Узнать подробнее">Узнать подробнее<span class="link__icon">
+                          <svg width="18" height="18" viewBox="0 0 18 18">
+                            <use xlink:href="images/sprite.svg#link"></use>
+                          </svg></span></div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="tab__item"><a class="project-card" href="#" title="Узнать подробнее">
+                  <div class="project-card__wrapper">
+                    <div class="project-card__header">
+                      <div class="project-card__image"><img class="project-card__img" src="images/basis-letergin.jpg" atl="Изображение проекта" /></div>
+                    </div>
+                    <div class="project-card__content">
+                      <div class="project-card__title">Основы Леттеринга</div>
+                    </div>
+                    <div class="project-card__footer">
+                      <div class="project-card__link link" href="#" title="Узнать подробнее">Узнать подробнее<span class="link__icon">
+                          <svg width="18" height="18" viewBox="0 0 18 18">
+                            <use xlink:href="images/sprite.svg#link"></use>
+                          </svg></span></div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="tab__item"><a class="project-card" href="#" title="Узнать подробнее">
+                  <div class="project-card__wrapper">
+                    <div class="project-card__header">
+                      <div class="project-card__image"><img class="project-card__img" src="images/sketch.jpg" atl="Изображение проекта" /></div>
+                    </div>
+                    <div class="project-card__content">
+                      <div class="project-card__title">Скетчинг для начинающих</div>
+                    </div>
+                    <div class="project-card__footer">
+                      <div class="project-card__link link" href="#" title="Узнать подробнее">Узнать подробнее<span class="link__icon">
+                          <svg width="18" height="18" viewBox="0 0 18 18">
+                            <use xlink:href="images/sprite.svg#link"></use>
+                          </svg></span></div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="tab" id="imagination">
+            <div class="tab__main">
+              <div class="tab__item"><a class="project-card" href="#" title="Узнать подробнее">
+                  <div class="project-card__wrapper">
+                    <div class="project-card__header">
+                      <div class="project-card__image"><img class="project-card__img" src="images/insta-mother.jpg" atl="Изображение проекта" /></div>
+                    </div>
+                    <div class="project-card__content">
+                      <div class="project-card__title">Insta-мама</div>
+                    </div>
+                    <div class="project-card__footer">
+                      <div class="project-card__link link" href="#" title="Узнать подробнее">Узнать подробнее<span class="link__icon">
+                          <svg width="18" height="18" viewBox="0 0 18 18">
+                            <use xlink:href="images/sprite.svg#link"></use>
+                          </svg></span></div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="cards cards_purple block">
@@ -335,42 +407,38 @@
           <div class="tools__title section-title">Вы получите инструменты для эффективного управления трафиком</div>
           <div class="tools__list">
             <div class="tools__item">
-              <div class="tool tool_analysis">
-                <div class="tool__wrapper">
+              <div class="tool">
+                <div class="tool__wrapper" style="background-image: url(images/analysis.png)">
                   <div class="tool__main"><span>01</span>
-                    <div class="tool__title">Доступный анализ трафика</div>
+                    <div class="tool__title">Доступный анализ <br> трафика</div>
                   </div>
-                  <div class="tool__side"><img class="tool__img" src="images/analysis.png" alt="" /></div>
                 </div>
               </div>
             </div>
             <div class="tools__item">
-              <div class="tool tool_lp">
-                <div class="tool__wrapper">
+              <div class="tool tool_image-right-side">
+                <div class="tool__wrapper" style="background-image: url(images/landing-page.png)">
                   <div class="tool__main"><span>02</span>
-                    <div class="tool__title">Посадочные страницы</div>
+                    <div class="tool__title">Посадочные <br> страницы</div>
                   </div>
-                  <div class="tool__side"><img class="tool__img" src="images/landing-page.png" alt="" /></div>
                 </div>
               </div>
             </div>
             <div class="tools__item">
-              <div class="tool tool_links">
-                <div class="tool__wrapper">
+              <div class="tool">
+                <div class="tool__wrapper" style="background-image: url(images/unique-links.png)">
                   <div class="tool__main"><span>03</span>
-                    <div class="tool__title">Рекламные материалы и уникальные ссылки</div>
+                    <div class="tool__title">Рекламные материалы <br> и уникальные ссылки</div>
                   </div>
-                  <div class="tool__side"><img class="tool__img" src="images/unique-links.png" alt="" /></div>
                 </div>
               </div>
             </div>
             <div class="tools__item">
-              <div class="tool tool_materials">
-                <div class="tool__wrapper">
+              <div class="tool">
+                <div class="tool__wrapper" style="background-image: url(images/promotional-materials.png)">
                   <div class="tool__main"><span>04</span>
-                    <div class="tool__title">Наш продакшн готов по&nbsp;запросу разрабатывать рекламные материалы</div><span>Тизеры и видео-тизеры</span>
+                    <div class="tool__title">Наш продакшн готов <br> по запросу разрабатывать <br> рекламные материалы</div><span>Тизеры и видео-тизеры</span>
                   </div>
-                  <div class="tool__side"><img class="tool__img" src="images/promotional-materials.png" alt="" /></div>
                 </div>
               </div>
             </div>
@@ -512,6 +580,22 @@
             <div class="commission__item"><img class="commission__img" src="images/yandex-money.png" /></div>
             <div class="commission__item"><img class="commission__img" src="images/webmoney.png" /></div>
           </div>
+        </div>
+      </div>
+      <div class="review block">
+        <div class="review__wrapper block__wrapper">
+          <div class="review__main">
+            <div class="review__title section-title">Мнение о нас</div>
+            <div class="review__person">
+              <div class="review__image"><img class="review__img" src="images/projects-logo.png" alt="" /></div>
+              <div class="review__who"><a class="review__link link link_black" href="#">Евгений Ильин<span class="link__icon">
+                    <svg width="18" height="18" viewBox="0 0 18 18">
+                      <use xlink:href="images/sprite.svg#link"></use>
+                    </svg></span></a><span>Директор рекламного агенства «Projects»</span></div>
+            </div>
+            <p><span>«</span>1,5 года уже стабильно вместе работаем, проект хорошо окупается, все от этого выигрывают</p>
+          </div>
+          <div class="review__side"><img src="images/man.png" alt="" /></div>
         </div>
       </div>
       <div class="start block block_purple">
