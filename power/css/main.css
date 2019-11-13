@@ -223,7 +223,7 @@ body {
   right: 0;
   bottom: auto;
   left: 0;
-  z-index: 2;
+  z-index: 5;
 }
 
 .body__content {
@@ -519,6 +519,7 @@ h6 {
 }
 
 .intro__overlay {
+  z-index: 4;
   overflow: hidden;
 }
 
@@ -538,16 +539,25 @@ h6 {
   background-color: rgba(46,5,113,.2);
 }
 
+.intro__overlay-poster {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .intro__overlay-video {
   min-width: 100%;
   min-height: 100%;
-  z-index: 1;
+  z-index: 3;
 }
 
 .intro__wrapper {
   position: relative;
   max-width: 1700px;
-  z-index: 2;
+  z-index: 5;
 }
 
 .intro__subcontainer {
@@ -2166,6 +2176,11 @@ h6 {
     margin-bottom: 35px;
   }
 
+  .tool {
+    border-color: #2e0571;
+    box-shadow: -5px 5px 5px rgba(8,15,40,.08);
+  }
+
   .tool__wrapper {
     padding: 30px;
     height: 250px;
@@ -2445,8 +2460,10 @@ h6 {
   }
 
   .tools__item {
-    flex-basis: calc(100% - 20px);
-    max-width: calc(100% - 20px);
+    -webkit-box-flex: 0;
+    flex: none;
+    max-width: none;
+    width: 290px;
   }
 
   .tool__wrapper {
