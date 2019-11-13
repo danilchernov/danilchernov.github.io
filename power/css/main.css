@@ -223,7 +223,7 @@ body {
   right: 0;
   bottom: auto;
   left: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .body__content {
@@ -404,7 +404,7 @@ h6 {
 }
 
 .header {
-  background-color: #2e0571;
+  background-color: transparent;
 }
 
 .header__wrapper {
@@ -518,9 +518,36 @@ h6 {
   padding-bottom: 120px;
 }
 
+.intro__overlay {
+  overflow: hidden;
+}
+
+.intro__overlay,
+.intro__overlay:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.intro__overlay:before {
+  content: "";
+  display: block;
+  z-index: 1;
+  background-color: rgba(46,5,113,.2);
+}
+
+.intro__overlay-video {
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+}
+
 .intro__wrapper {
   position: relative;
   max-width: 1700px;
+  z-index: 2;
 }
 
 .intro__subcontainer {
