@@ -1590,6 +1590,14 @@ h6 {
   background-color: rgba(46,5,113,.7);
 }
 
+.fancybox-opened .fancybox-skin {
+  box-shadow: none;
+}
+
+.fancybox-skin {
+  background-color: transparent;
+}
+
 .fancybox-content,
 .fancybox-slide {
   padding: 0;
