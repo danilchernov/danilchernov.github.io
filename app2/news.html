@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Новости 📰
+  </title>
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body class="body">
+  <div class="body__wrapper">
+    <header class="body__header">
+      <div class="header">
+        <div class="header__wrapper">
+          <div class="header-top block">
+            <div class="header-top__wrapper block__wrapper">
+              <div class="header-top__main">
+                <div class="header-top__sub-nav">
+                  <ul class="sub-nav is-horizontal">
+                    <li><a href="#">Новости / мероприятия</a></li>
+                    <li><a href="#">Статьи о пользе</a></li>
+                    <li><a href="#">Рецепты</a></li>
+                    <li><a href="#">Отзывы потребителей</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header-top__side">
+                <ul class="contacts">
+                  <li class="contacts__item"><a class="contacts__link" href="mailto:ask@altaykvas.ru">
+                      <div class="contacts__img">
+                        <svg width="15" height="12" viewBox="0 0 15 12">
+                          <use xlink:href="images/sprite.svg#icon-message"></use>
+                        </svg>
+                      </div><span>ask@altaykvas.ru</span>
+                    </a></li>
+                  <li class="contacts__item"><a class="contacts__link" href="tel:+73852606060">
+                      <svg width="7" height="9" viewBox="0 0 7 9">
+                        <use xlink:href="images/sprite.svg#icon-phone"></use>
+                      </svg><span>+ 7 (3852) 60 60 60</span></a></li>
+                  <li class="contacts__item"> <a class="contacts__link" href="https://www.instagram.com/frontend_u/?hl=ru"><img src="images/insta.svg" alt="" /></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="header-bottom block">
+            <div class="header-bottom__wrapper block__wrapper">
+              <div class="header-bottom__side"><a class="logo" href="/" title="Главная страница"><img src="images/logo.png" alt="Логотип" /></a>
+                <ul class="header-bottom__contacts contacts contacts_row">
+                  <li class="contacts__item"><a class="contacts__link" href="mailto:ask@altaykvas.ru">
+                      <svg width="15" height="12" viewBox="0 0 15 12">
+                        <use xlink:href="images/sprite.svg#icon-message"></use>
+                      </svg><span>ask@altaykvas.ru</span></a></li>
+                  <li class="contacts__item"><a class="contacts__link" href="tel:+73852606060">
+                      <svg width="7" height="9" viewBox="0 0 7 9">
+                        <use xlink:href="images/sprite.svg#icon-phone"></use>
+                      </svg><span>+ 7 (3852) 60 60 60</span></a></li>
+                  <li class="contacts__item"> <a class="contacts__link" href="https://www.instagram.com/frontend_u/?hl=ru"><img class="contacts__img" src="images/insta.svg" alt="" /></a></li>
+                </ul>
+                <button class="header-bottom__button js-menu-button" type="button"> <span></span><span></span><span></span><span></span></button>
+              </div>
+              <div class="header-bottom__main js-site-navigation">
+                <div class="header-bottom__navigation">
+                  <nav class="navigation">
+                    <div class="navigation__wrapper">
+                      <ul class="navigation__list">
+                        <li class="navigation__item navigation__item_has-children"><span class="navigation__link">Каталог продукции</span>
+                          <ul class="navigation__list navigation__list_inner">
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Квасы</span><img src="images/nav-bottle-1.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Морсы</span><img src="images/nav-bottle-2.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Соки</span><img src="images/nav-bottle-2.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Овозщны закуски</span><img src="images/nav-bottle-3.png" /></a></li>
+                          </ul>
+                        </li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">Партнёрам</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">О компании</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">Карьера</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">Контакты / где купить</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+                <div class="header-bottom__sub-nav">
+                  <ul class="sub-nav is-vertical">
+                    <li><a href="#">Новости / мероприятия</a></li>
+                    <li><a href="#">Статьи о пользе</a></li>
+                    <li><a href="#">Рецепты</a></li>
+                    <li><a href="#">Отзывы потребителей</a></li>
+                  </ul>
+                </div>
+                <ul class="header-bottom__contacts contacts">
+                  <li class="contacts__item"><a class="contacts__link" href="mailto:ask@altaykvas.ru"> <span>ask@altaykvas.ru</span></a></li>
+                  <li class="contacts__item"><a class="contacts__link" href="tel:+73852606060"> <span>+ 7 (3852) 60 60 60</span></a></li>
+                  <li class="contacts__item"> <a class="contacts__link" href="https://www.instagram.com/frontend_u/?hl=ru"><img class="contacts__img" src="images/insta.svg" alt="" /></a></li>
+                </ul>
+                <div class="header-bottom__action">
+                  <a class="button button_md-white" href="#" data-fancybox="" data-src="#request"><span class="button__content"><span class="button__title">Запросить прайс</span></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="body__content">
+      <div class="pagination block">
+        <div class="pagination__wrapper block__wrapper">
+          <ul class="pagination__list">
+            <li class="pagination__item"><a class="pagination__link" href="#">Главная</a></li>
+            <li class="pagination__item"><a class="pagination__link pagination__link_current" href="#">Новости и мероприятия</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="news news_page block">
+        <div class="news__wrapper block__wrapper">
+          <div class="news__title">Новости и мероприятия</div>
+          <ul class="news__tags tags">
+            <div class="tags__item">
+              <label class="tag tag_interactive">
+                <input class="tag__input visually-hidden" type="checkbox" />
+                <div class="tag__wrapper">
+                  <input class="tag__input visually-hidden" type="checkbox" /><span class="tag__button">
+                    <svg width="35" height="35" viewBox="0 0 36 35">
+                      <use xlink:href="images/sprite.svg#icon-union"></use>
+                    </svg></span>
+                  <div class="tag__title">#всёполезно!</div>
+                </div>
+              </label>
+            </div>
+            <div class="tags__item">
+              <label class="tag tag_interactive">
+                <input class="tag__input visually-hidden" type="checkbox" />
+                <div class="tag__wrapper">
+                  <input class="tag__input visually-hidden" type="checkbox" /><span class="tag__button">
+                    <svg width="35" height="35" viewBox="0 0 36 35">
+                      <use xlink:href="images/sprite.svg#icon-union"></use>
+                    </svg></span>
+                  <div class="tag__title">#всёполезно!</div>
+                </div>
+              </label>
+            </div>
+            <div class="tags__item">
+              <label class="tag tag_interactive">
+                <input class="tag__input visually-hidden" type="checkbox" />
+                <div class="tag__wrapper">
+                  <input class="tag__input visually-hidden" type="checkbox" /><span class="tag__button">
+                    <svg width="35" height="35" viewBox="0 0 36 35">
+                      <use xlink:href="images/sprite.svg#icon-union"></use>
+                    </svg></span>
+                  <div class="tag__title">#ещётег</div>
+                </div>
+              </label>
+            </div>
+            <div class="tags__item">
+              <label class="tag tag_interactive">
+                <input class="tag__input visually-hidden" type="checkbox" />
+                <div class="tag__wrapper">
+                  <input class="tag__input visually-hidden" type="checkbox" /><span class="tag__button">
+                    <svg width="35" height="35" viewBox="0 0 36 35">
+                      <use xlink:href="images/sprite.svg#icon-union"></use>
+                    </svg></span>
+                  <div class="tag__title">#иещё</div>
+                </div>
+              </label>
+            </div>
+            <div class="tags__item">
+              <label class="tag tag_interactive">
+                <input class="tag__input visually-hidden" type="checkbox" />
+                <div class="tag__wrapper">
+                  <input class="tag__input visually-hidden" type="checkbox" /><span class="tag__button">
+                    <svg width="35" height="35" viewBox="0 0 36 35">
+                      <use xlink:href="images/sprite.svg#icon-union"></use>
+                    </svg></span>
+                  <div class="tag__title">#кваскаждыйдень</div>
+                </div>
+              </label>
+            </div>
+            <div class="tags__item">
+              <label class="tag tag_interactive">
+                <input class="tag__input visually-hidden" type="checkbox" />
+                <div class="tag__wrapper">
+                  <input class="tag__input visually-hidden" type="checkbox" /><span class="tag__button">
+                    <svg width="35" height="35" viewBox="0 0 36 35">
+                      <use xlink:href="images/sprite.svg#icon-union"></use>
+                    </svg></span>
+                  <div class="tag__title">#мероприятия</div>
+                </div>
+              </label>
+            </div>
+          </ul>
+          <ul class="news__list">
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-1.jpg" />
+                    <label class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">20 ноября 2019</span><span class="news-item__title">День хотьбы 2019</span></div>
+                </div>
+              </a>
+            </li>
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-2.jpg" />
+                    <label class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">11 ноября 2019</span><span class="news-item__title">Губернатор Томенко наградил коллектив «Бродича»</span></div>
+                </div>
+              </a>
+            </li>
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-3.jpg" />
+                    <label class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">5 ноября 2019</span><span class="news-item__title">Руководитель Каныгин Анатолий на выставке в Москве</span></div>
+                </div>
+              </a>
+            </li>
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-1.jpg" />
+                    <label class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">20 ноября 2019</span><span class="news-item__title">День хотьбы 2019</span></div>
+                </div>
+              </a>
+            </li>
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-2.jpg" />
+                    <label class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">11 ноября 2019</span><span class="news-item__title">Губернатор Томенко наградил коллектив «Бродича»</span></div>
+                </div>
+              </a>
+            </li>
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-3.jpg" />
+                    <label class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">5 ноября 2019</span><span class="news-item__title">Руководитель Каныгин Анатолий на выставке в Москве</span></div>
+                </div>
+              </a>
+            </li>
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-1.jpg" />
+                    <label class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">20 ноября 2019</span><span class="news-item__title">День хотьбы 2019</span></div>
+                </div>
+              </a>
+            </li>
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-2.jpg" />
+                    <label class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">11 ноября 2019</span><span class="news-item__title">Губернатор Томенко наградил коллектив «Бродича»</span></div>
+                </div>
+              </a>
+            </li>
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-3.jpg" />
+                    <label class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">5 ноября 2019</span><span class="news-item__title">Руководитель Каныгин Анатолий на выставке в Москве</span></div>
+                </div>
+              </a>
+            </li>
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-1.jpg" />
+                    <label class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">20 ноября 2019</span><span class="news-item__title">День хотьбы 2019</span></div>
+                </div>
+              </a>
+            </li>
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-2.jpg" />
+                    <label class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">11 ноября 2019</span><span class="news-item__title">Губернатор Томенко наградил коллектив «Бродича»</span></div>
+                </div>
+              </a>
+            </li>
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-3.jpg" />
+                    <label class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">5 ноября 2019</span><span class="news-item__title">Руководитель Каныгин Анатолий на выставке в Москве</span></div>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <button class="button news__button button_white" type="button"><span class="button__content"><span class="button__title">Просмотреть все новости</span></span></button>
+        </div>
+      </div>
+    </main>
+    <footer class="body__footer">
+      <div class="footer block">
+        <div class="footer__wrapper block__wrapper">
+          <div class="footer__main">
+            <div class="footer__col">
+              <div class="footer__title">Продукция</div>
+              <ul class="footer__sub-nav sub-nav sub-nav_footer">
+                <li><a href="#">Квас</a></li>
+                <li><a href="#">Морс</a></li>
+                <li><a href="#">Сок</a></li>
+                <li><a href="#">Овощная закуса</a></li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <div class="footer__title">Информация</div>
+              <ul class="footer__sub-nav sub-nav sub-nav_footer">
+                <li><a href="#">Партнёрам</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Карьера</a></li>
+                <li><a href="#">Где купить</a></li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <div class="footer__title">Новости / статьи</div>
+              <ul class="footer__sub-nav sub-nav sub-nav_footer">
+                <li><a href="#">Новости / мероприятия</a></li>
+                <li><a href="#">Статьи о пользе</a></li>
+                <li><a href="#">Рецепты</a></li>
+                <li><a href="#">Отзывы потребителей</a></li>
+              </ul>
+            </div>
+            <div class="footer__col footer__col_ml-auto">
+              <ul class="footer__contacts contacts contacts_vertical">
+                <li class="contacts__item"><a class="contacts__link" href="mailto:ask@altaykvas.ru">
+                    <div class="contacts__img">
+                      <svg width="15" height="12" viewBox="0 0 15 12">
+                        <use xlink:href="images/sprite.svg#icon-message"></use>
+                      </svg>
+                    </div><span>ask@altaykvas.ru</span>
+                  </a></li>
+                <li class="contacts__item"><a class="contacts__link" href="tel:+73852606060">
+                    <svg width="7" height="9" viewBox="0 0 7 9">
+                      <use xlink:href="images/sprite.svg#icon-phone"></use>
+                    </svg><span>+ 7 (3852) 60 60 60</span></a></li>
+                <li class="contacts__item"> <a class="contacts__link" href="https://www.instagram.com/frontend_u/?hl=ru"><img src="images/insta.svg" alt="" /></a></li>
+              </ul>
+              <a class="button button_md-white footer__button" href="#" data-fancybox="" data-src="#request"><span class="button__content"><span class="button__title">Запросить прайс</span></span></a>
+            </div>
+          </div>
+          <div class="footer__side"><span class="footer__copyright">© 2018 ООО «АЛТАЙ-ПРОДУКТ». </span>
+            <div class="footer__authors"><span>Разработка сайта — </span><a href="#">Название компании</a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="scripts/bundle.js" defer="defer"></script>
+</body>
+
+</html>
