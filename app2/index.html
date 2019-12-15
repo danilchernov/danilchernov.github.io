@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Brodich 🍾
+  <title>Главная страница 🍾
   </title>
   <link rel="stylesheet" href="css/vendor.css" />
   <link rel="stylesheet" href="css/main.css" />
@@ -14,13 +14,561 @@
 <body class="body">
   <div class="body__wrapper">
     <header class="body__header">
+      <div class="header">
+        <div class="header__wrapper">
+          <div class="header-top block">
+            <div class="header-top__wrapper block__wrapper">
+              <div class="header-top__main">
+                <div class="header-top__sub-nav">
+                  <ul class="sub-nav is-horizontal">
+                    <li><a href="#">Новости / мероприятия</a></li>
+                    <li><a href="#">Статьи о пользе</a></li>
+                    <li><a href="#">Рецепты</a></li>
+                    <li><a href="#">Отзывы потребителей</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header-top__side">
+                <ul class="contacts">
+                  <li class="contacts__item"><a class="contacts__link" href="mailto:ask@altaykvas.ru">
+                      <div class="contacts__img">
+                        <svg width="15" height="12" viewBox="0 0 15 12">
+                          <use xlink:href="images/sprite.svg#icon-message"></use>
+                        </svg>
+                      </div><span>ask@altaykvas.ru</span>
+                    </a></li>
+                  <li class="contacts__item"><a class="contacts__link" href="tel:+73852606060">
+                      <svg width="7" height="9" viewBox="0 0 7 9">
+                        <use xlink:href="images/sprite.svg#icon-phone"></use>
+                      </svg><span>+ 7 (3852) 60 60 60</span></a></li>
+                  <li class="contacts__item"> <a class="contacts__link" href="https://www.instagram.com/frontend_u/?hl=ru"><img src="images/insta.svg" alt="" /></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="header-bottom block">
+            <div class="header-bottom__wrapper block__wrapper">
+              <div class="header-bottom__side"><a class="logo" href="/" title="Главная страница"><img src="images/logo.png" alt="Логотип" /></a>
+                <ul class="header-bottom__contacts contacts contacts_row">
+                  <li class="contacts__item"><a class="contacts__link" href="mailto:ask@altaykvas.ru">
+                      <svg width="15" height="12" viewBox="0 0 15 12">
+                        <use xlink:href="images/sprite.svg#icon-message"></use>
+                      </svg><span>ask@altaykvas.ru</span></a></li>
+                  <li class="contacts__item"><a class="contacts__link" href="tel:+73852606060">
+                      <svg width="7" height="9" viewBox="0 0 7 9">
+                        <use xlink:href="images/sprite.svg#icon-phone"></use>
+                      </svg><span>+ 7 (3852) 60 60 60</span></a></li>
+                  <li class="contacts__item"> <a class="contacts__link" href="https://www.instagram.com/frontend_u/?hl=ru"><img class="contacts__img" src="images/insta.svg" alt="" /></a></li>
+                </ul>
+                <button class="header-bottom__button js-menu-button" type="button"> <span></span><span></span><span></span><span></span></button>
+              </div>
+              <div class="header-bottom__main js-site-navigation">
+                <div class="header-bottom__navigation">
+                  <nav class="navigation">
+                    <div class="navigation__wrapper">
+                      <ul class="navigation__list">
+                        <li class="navigation__item navigation__item_has-children"><span class="navigation__link">Каталог продукции</span>
+                          <ul class="navigation__list navigation__list_inner">
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Квасы</span><img src="images/nav-bottle-1.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Морсы</span><img src="images/nav-bottle-2.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Соки</span><img src="images/nav-bottle-2.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Овозщны закуски</span><img src="images/nav-bottle-3.png" /></a></li>
+                          </ul>
+                        </li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">Партнёрам</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">О компании</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">Карьера</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">Контакты / где купить</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+                <div class="header-bottom__sub-nav">
+                  <ul class="sub-nav is-vertical">
+                    <li><a href="#">Новости / мероприятия</a></li>
+                    <li><a href="#">Статьи о пользе</a></li>
+                    <li><a href="#">Рецепты</a></li>
+                    <li><a href="#">Отзывы потребителей</a></li>
+                  </ul>
+                </div>
+                <ul class="header-bottom__contacts contacts">
+                  <li class="contacts__item"><a class="contacts__link" href="mailto:ask@altaykvas.ru"> <span>ask@altaykvas.ru</span></a></li>
+                  <li class="contacts__item"><a class="contacts__link" href="tel:+73852606060"> <span>+ 7 (3852) 60 60 60</span></a></li>
+                  <li class="contacts__item"> <a class="contacts__link" href="https://www.instagram.com/frontend_u/?hl=ru"><img class="contacts__img" src="images/insta.svg" alt="" /></a></li>
+                </ul>
+                <div class="header-bottom__action">
+                  <a class="button button_md-white" href="#" data-fancybox="" data-src="#request"><span class="button__content"><span class="button__title">Запросить прайс</span></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <main class="body__content">
-      <div class="block">
-        <div class="block__wrapper"></div>
+      <div class="section-slider js-section-slider">
+        <div class="section-slider__list owl-carousel js-slides">
+          <div class="section-slide block">
+            <div class="section-slide__bgc" style="background-color: #e31d24"></div>
+            <div class="section-slide__img" style="background-image: url(images/fruit-drink-bg.jpg)"></div>
+            <div class="section-slide__bottle" style="background-image: url(images/fruit-drink-bottle.png)"></div>
+            <div class="section-slide__ingredients js-scene">
+              <div data-depth=".1" style="background-image: url(images/berries.png)"></div>
+            </div>
+            <div class="section-slide__wrapper block__wrapper">
+              <div class="section-slide__content">
+                <div class="section-slide__title">Натуральные морсы</div>
+                <p>Морс из ягод брусники от Алтай-Продукт приготовлен из свежих ягод брусники с&nbsp;добавлением сахара. Индивидуальный подход к&nbsp;приготовлению данного напитка позволяет сохранить полезные свойства ягод. </p>
+              </div>
+            </div>
+          </div>
+          <div class="section-slide block">
+            <div class="section-slide__bgc" style="background-color: #f8c307"></div>
+            <div class="section-slide__img" style="background-image: url(images/section-slide-2.jpg)"></div>
+            <div class="section-slide__bottle" style="background-image: url(images/section-slide-bottle-2.png)"></div>
+            <div class="section-slide__ingredients js-scene">
+              <div data-depth=".1" style="background-image: url(images/section-slide-2-ingredients.png)"></div>
+            </div>
+            <div class="section-slide__wrapper block__wrapper">
+              <div class="section-slide__content">
+                <div class="section-slide__title">Производство натуральных продуктов для&nbsp;всей семьи</div>
+                <p>Квас, морс, сок и овощные закуски</p>
+              </div>
+            </div>
+          </div>
+          <div class="section-slide block">
+            <div class="section-slide__bgc" style="background-color: #f8c307"></div>
+            <div class="section-slide__img" style="background-image: url(images/section-slide-2.jpg)"></div>
+            <div class="section-slide__bottle" style="background-image: url(images/section-slide-bottle-2.png)"></div>
+            <div class="section-slide__ingredients js-scene">
+              <div data-depth=".1" style="background-image: url(images/section-slide-2-ingredients.png)"></div>
+            </div>
+            <div class="section-slide__wrapper block__wrapper">
+              <div class="section-slide__content">
+                <div class="section-slide__title">Производство натуральных продуктов для&nbsp;всей семьи</div>
+                <p>Квас, морс, сок и овощные закуски</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-slider__actions block__wrapper">
+          <div class="section-slider__navigation slider-navigation">
+            <button class="slider-navigation__arrow prev js-button" type="button"><svg class="slider-navigation__icon" viewBox="0 0 9 14" width="9" height="14">
+                <use xlink:href="images/sprite.svg#icon-arrow"></use>
+              </svg></button>
+            <button class="slider-navigation__arrow next js-button" type="button"><svg class="slider-navigation__icon" viewBox="0 0 9 14" width="9" height="14">
+                <use xlink:href="images/sprite.svg#icon-arrow"></use>
+              </svg></button>
+          </div>
+          <div class="section-slider__counter slider-counter"><span class="slider-counter__current js-current-slide">2</span>—<span class="slider-counter__total js-total-slides">4</span></div>
+        </div>
+      </div>
+      <div class="categories-slider js-categories-slider">
+        <div class="categories-slider__wrapper">
+          <div class="categories-slider__container">
+            <div class="categories-slider__side block__wrapper">
+              <div class="categories-slider__title">Наша продукция</div>
+              <div class="categories-slider__navigation js-navigation"><a class="js-item" href="#">Квас</a><a class="js-item" href="#">Морс</a><a class="js-item" href="#">Сок</a><a class="js-item" href="#">Овощная закуса</a><a class="js-item is-new" href="#">
+                  Ещё что-нибудь<span>new</span></a></div>
+            </div>
+          </div>
+          <div class="categories-slider__list owl-carousel js-slides block__wrapper">
+            <div class="categories-slide js-categories-slide">
+              <div class="categories-slide__wrapper">
+                <div class="categories-slide__ingredients js-scene">
+                  <div data-depth=".1" style="background-image: url(images/category-1-ingredients.png)"></div>
+                </div>
+                <div class="categories-slide__side" style="background-image: url(images/category-1-bg.jpg)"><img class="categories-slide__img" data-src="images/category-1-bottle.png" src="#" alt="" /></div>
+                <div class="categories-slide__main js-slide-content">
+                  <div class="categories-slide__counter slider-counter is-contrast"><span class="slider-counter__current">1</span>—<span class="slider-counter__total">4</span></div>
+                  <div class="categories-slide__title-container"> <span class="categories-slide__title">Живой квас</span><span class="categories-slide__subtitle">Натурального брожения</span>
+                  </div>
+                  <div class="categories-slide__container js-slide-container">
+                    <p class="js-description">Натуральный продукт, изготовлен по традиционный рецептуре путем живого бражения. В&nbsp;его составе исключительно натуральные ингридиенты. Квас «Домашний» обладает высокими вкусовыми качествами, и снимает усталость</p>
+                    <ul class="categories-slide__differences differences js-differences">
+                      <li class="differences__item"><img class="differences__img" src="images/gmo.svg" alt="Без ГМО" /><span>Без ГМО</span></li>
+                      <li class="differences__item"><img class="differences__img" src="images/natural.svg" alt="Натуральный продукт" /><span>Натуральный продукт</span></li>
+                      <li class="differences__item"><img class="differences__img" src="images/altai.svg" alt="Призведено на Алатае" /><span>Призведено на Алатае</span></li>
+                    </ul>
+                    <button class="categories-slide__button js-show-more"><span>
+                        <svg width="9" height="14" viewBox="0 0 9 14">
+                          <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                        </svg></span></button>
+                  </div>
+                  <div class="categories-slide__actions">
+                    <a class="button button_min-width" href="#"><span class="button__content"><span class="button__icon button__icon_right button__icon_opacity">
+                          <svg width="9" height="14" viewBox="0 0 9 14">
+                            <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                          </svg></span><span class="button__title">Перейти в каталог</span></span></a>
+                    <div class="categories-slide__navigation slider-navigation gray slider-navigation-lg-full">
+                      <button class="slider-navigation__arrow prev js-button" type="button"><svg class="slider-navigation__icon" viewBox="0 0 9 14" width="9" height="14">
+                          <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                        </svg></button>
+                      <button class="slider-navigation__arrow next js-button" type="button"><svg class="slider-navigation__icon" viewBox="0 0 9 14" width="9" height="14">
+                          <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                        </svg></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="categories-slide js-categories-slide">
+              <div class="categories-slide__wrapper">
+                <div class="categories-slide__ingredients js-scene">
+                  <div data-depth=".1" style="background-image: url(images/category-2-ingredients.png)"></div>
+                </div>
+                <div class="categories-slide__side" style="background-image: url(images/category-2-bg.jpg)"><img class="categories-slide__img" data-src="images/category-2-bottle.png" src="#" alt="" /></div>
+                <div class="categories-slide__main js-slide-content">
+                  <div class="categories-slide__counter slider-counter is-contrast"><span class="slider-counter__current">2</span>—<span class="slider-counter__total">4</span></div>
+                  <div class="categories-slide__title-container"> <span class="categories-slide__title">Натуральный морс</span>
+                  </div>
+                  <div class="categories-slide__container js-slide-container">
+                    <p class="js-description">Натуральный продукт, изготовлен по традиционный рецептуре путем живого бражения. В&nbsp;его составе исключительно натуральные ингридиенты. Квас «Домашний» обладает высокими вкусовыми качествами, и снимает усталость</p>
+                    <ul class="categories-slide__differences differences js-differences">
+                      <li class="differences__item"><img class="differences__img" src="images/gmo.svg" alt="Без ГМО" /><span>Без ГМО</span></li>
+                      <li class="differences__item"><img class="differences__img" src="images/natural.svg" alt="Натуральный продукт" /><span>Натуральный продукт</span></li>
+                      <li class="differences__item"><img class="differences__img" src="images/altai.svg" alt="Призведено на Алатае" /><span>Призведено на Алатае</span></li>
+                    </ul>
+                    <button class="categories-slide__button js-show-more"><span>
+                        <svg width="9" height="14" viewBox="0 0 9 14">
+                          <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                        </svg></span></button>
+                  </div>
+                  <div class="categories-slide__actions">
+                    <a class="button button_min-width" href="#"><span class="button__content"><span class="button__icon button__icon_right button__icon_opacity">
+                          <svg width="9" height="14" viewBox="0 0 9 14">
+                            <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                          </svg></span><span class="button__title">Перейти в каталог</span></span></a>
+                    <div class="categories-slide__navigation slider-navigation gray slider-navigation-lg-full">
+                      <button class="slider-navigation__arrow prev js-button" type="button"><svg class="slider-navigation__icon" viewBox="0 0 9 14" width="9" height="14">
+                          <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                        </svg></button>
+                      <button class="slider-navigation__arrow next js-button" type="button"><svg class="slider-navigation__icon" viewBox="0 0 9 14" width="9" height="14">
+                          <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                        </svg></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="categories-slide js-categories-slide">
+              <div class="categories-slide__wrapper">
+                <div class="categories-slide__ingredients js-scene">
+                  <div data-depth=".1" style="background-image: url(images/category-3-ingredients.png)"></div>
+                </div>
+                <div class="categories-slide__side" style="background-image: url(images/category-2-bg.jpg)"><img class="categories-slide__img" data-src="images/category-3-bottle.png" src="#" alt="" /></div>
+                <div class="categories-slide__main js-slide-content">
+                  <div class="categories-slide__counter slider-counter is-contrast"><span class="slider-counter__current">3</span>—<span class="slider-counter__total">4</span></div>
+                  <div class="categories-slide__title-container"> <span class="categories-slide__title">Натуральный сок</span>
+                  </div>
+                  <div class="categories-slide__container js-slide-container">
+                    <p class="js-description">Натуральный продукт, изготовлен по традиционный рецептуре путем живого бражения. В&nbsp;его составе исключительно натуральные ингридиенты. Квас «Домашний» обладает высокими вкусовыми качествами, и снимает усталость</p>
+                    <ul class="categories-slide__differences differences js-differences">
+                      <li class="differences__item"><img class="differences__img" src="images/gmo.svg" alt="Без ГМО" /><span>Без ГМО</span></li>
+                      <li class="differences__item"><img class="differences__img" src="images/natural.svg" alt="Натуральный продукт" /><span>Натуральный продукт</span></li>
+                      <li class="differences__item"><img class="differences__img" src="images/altai.svg" alt="Призведено на Алатае" /><span>Призведено на Алатае</span></li>
+                    </ul>
+                    <button class="categories-slide__button js-show-more"><span>
+                        <svg width="9" height="14" viewBox="0 0 9 14">
+                          <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                        </svg></span></button>
+                  </div>
+                  <div class="categories-slide__actions">
+                    <a class="button button_min-width" href="#"><span class="button__content"><span class="button__icon button__icon_right button__icon_opacity">
+                          <svg width="9" height="14" viewBox="0 0 9 14">
+                            <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                          </svg></span><span class="button__title">Перейти в каталог</span></span></a>
+                    <div class="categories-slide__navigation slider-navigation gray slider-navigation-lg-full">
+                      <button class="slider-navigation__arrow prev js-button" type="button"><svg class="slider-navigation__icon" viewBox="0 0 9 14" width="9" height="14">
+                          <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                        </svg></button>
+                      <button class="slider-navigation__arrow next js-button" type="button"><svg class="slider-navigation__icon" viewBox="0 0 9 14" width="9" height="14">
+                          <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                        </svg></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="categories-slide js-categories-slide">
+              <div class="categories-slide__wrapper">
+                <div class="categories-slide__ingredients js-scene">
+                  <div data-depth=".1" style="background-image: url(images/category-4-ingredients.png)"></div>
+                </div>
+                <div class="categories-slide__side" style="background-image: url(images/category-4-bg.jpg)"><img class="categories-slide__img" data-src="images/category-4-bottle.png" src="#" alt="" /></div>
+                <div class="categories-slide__main js-slide-content">
+                  <div class="categories-slide__counter slider-counter is-contrast"><span class="slider-counter__current">4</span>—<span class="slider-counter__total">4</span></div>
+                  <div class="categories-slide__title-container"> <span class="categories-slide__title">Овощная закуса</span>
+                  </div>
+                  <div class="categories-slide__container js-slide-container">
+                    <p class="js-description">Натуральный продукт, изготовлен по традиционный рецептуре путем живого бражения. В&nbsp;его составе исключительно натуральные ингридиенты. Квас «Домашний» обладает высокими вкусовыми качествами, и снимает усталость</p>
+                    <ul class="categories-slide__differences differences js-differences">
+                      <li class="differences__item"><img class="differences__img" src="images/gmo.svg" alt="Без ГМО" /><span>Без ГМО</span></li>
+                      <li class="differences__item"><img class="differences__img" src="images/natural.svg" alt="Натуральный продукт" /><span>Натуральный продукт</span></li>
+                      <li class="differences__item"><img class="differences__img" src="images/altai.svg" alt="Призведено на Алатае" /><span>Призведено на Алатае</span></li>
+                    </ul>
+                    <button class="categories-slide__button js-show-more"><span>
+                        <svg width="9" height="14" viewBox="0 0 9 14">
+                          <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                        </svg></span></button>
+                  </div>
+                  <div class="categories-slide__actions">
+                    <a class="button button_min-width" href="#"><span class="button__content"><span class="button__icon button__icon_right button__icon_opacity">
+                          <svg width="9" height="14" viewBox="0 0 9 14">
+                            <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                          </svg></span><span class="button__title">Перейти в каталог</span></span></a>
+                    <div class="categories-slide__navigation slider-navigation gray slider-navigation-lg-full">
+                      <button class="slider-navigation__arrow prev js-button" type="button"><svg class="slider-navigation__icon" viewBox="0 0 9 14" width="9" height="14">
+                          <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                        </svg></button>
+                      <button class="slider-navigation__arrow next js-button" type="button"><svg class="slider-navigation__icon" viewBox="0 0 9 14" width="9" height="14">
+                          <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                        </svg></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features block"><img class="features__img" src="images/car.png" />
+        <div class="features__wrapper block__wrapper">
+          <div class="features__title">«Бродич» заслужил доверие&nbsp;тысяч потребителей</div>
+          <p>Благодаря отличному вкусу и&nbsp;натуральности продукции</p>
+          <ul class="features__list">
+            <li class="features__item">
+              <div class="feature">
+                <div class="feature__wrapper">
+                  <div class="feature__side"><img class="feature__img" src="images/feature-1.png" /></div>
+                  <p>Более 30 тонн продукции отгружаем ежемесячно в 6-и регионах</p>
+                </div>
+              </div>
+            </li>
+            <li class="features__item">
+              <div class="feature">
+                <div class="feature__wrapper">
+                  <div class="feature__side"><img class="feature__img" src="images/feature-2.png" /></div>
+                  <p>Собственная логистика в регионах присуствия</p>
+                </div>
+              </div>
+            </li>
+            <li class="features__item">
+              <div class="feature">
+                <div class="feature__wrapper">
+                  <div class="feature__side"><img class="feature__img" src="images/feature-3.png" /></div>
+                  <p>Высокое качество продукции — только натуральные ингридиенты</p>
+                </div>
+              </div>
+            </li>
+            <li class="features__item">
+              <div class="feature">
+                <div class="feature__wrapper">
+                  <div class="feature__side"><img class="feature__img" src="images/feature-4.png" /></div>
+                  <p>Работает с крупными федеральными сетями</p>
+                </div>
+              </div>
+            </li>
+            <li class="features__item">
+              <div class="feature">
+                <div class="feature__wrapper">
+                  <div class="feature__side"><img class="feature__img" src="images/feature-5.png" /></div>
+                  <p>Предоставляем выгодные условия партнерам</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="features__buttons">
+            <a class="button features__button features__button_small" href="#"><span class="button__content"><span class="button__title">Подробнее о компании</span></span></a>
+            <a class="button features__button features__button_large button_white" href="#"><span class="button__content"><span class="button__title">Преимущества для партнёров</span></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="news block">
+        <div class="news__wrapper block__wrapper">
+          <div class="news__title">Новости и мероприятия</div>
+          <ul class="news__list">
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-1.jpg" />
+                    <div class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">20 ноября 2019</span><span class="news-item__title">День хотьбы 2019</span></div>
+                </div>
+              </a>
+            </li>
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-2.jpg" />
+                    <div class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">11 ноября 2019</span><span class="news-item__title">Губернатор Томенко наградил коллектив «Бродича»</span></div>
+                </div>
+              </a>
+            </li>
+            <li class="news__item"><a class="news-item" href="#">
+                <div class="news-item__wrapper">
+                  <div class="news-item__side"><img class="news-item__img" src="images/news-3.jpg" />
+                    <div class="tag">
+                      <div class="tag__wrapper">
+                        <div class="tag__title">#всёполезно!</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="news-item__main"><span class="news-item__date">5 ноября 2019</span><span class="news-item__title">Руководитель Каныгин Анатолий на выставке в Москве</span></div>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <button class="button news__button button_white" type="button"><span class="button__content"><span class="button__title">Просмотреть все новости</span></span></button>
+        </div>
+      </div>
+      <div class="promo block">
+        <div class="promo__container"><span class="promo__brand">«Бродичь» | 2020</span>
+          <div class="promo__wrapper block__wrapper">
+            <div class="promo__content">
+              <div class="promo__title">вкус сквозь время</div>
+              <p>Квас живого брожения мы готовим по старинным рецептам из натуральных ингридиентов</p>
+              <p>Благодаря этому вкус нашего квас напоминает детство, когда квас готовили наши мамы и бабушки</p>
+            </div>
+            <div class="promo__buttons">
+              <button class="button promo__button promo__button_large" type="button"><span class="button__content"><span class="button__title">Подробнее о производстве</span></span></button>
+              <button class="button promo__button promo__button_small button_transparent" type="button"><span class="button__content"><span class="button__title">Полезные статьи</span></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offers block">
+        <div class="offers__wrapper block__wrapper">
+          <div class="offers__item">
+            <div class="offers__title">Карьера в&nbsp;компании</div><a class="offer" href="#">
+              <div class="offer__wrapper" style="background-image: url(images/offer-1.jpg)">
+                <div class="offer__container">
+                  <p>Приглашаем в нашу дружную команду</p>
+                  <div class="offer__link"><span>Подробнее</span>
+                    <div class="offer__icon">
+                      <svg width="9" height="14" viewBox="0 0 9 14">
+                        <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="offers__item">
+            <div class="offers__title">Отзывы о&nbsp;продукции</div><a class="offer" href="#">
+              <div class="offer__wrapper" style="background-image: url(images/offer-2.jpg)">
+                <div class="offer__container">
+                  <p>Оставьте отзыв о нашей продукции! А также можно посмотреть отзывы других покупателей</p>
+                  <div class="offer__link"><span>Подробнее</span>
+                    <div class="offer__icon">
+                      <svg width="9" height="14" viewBox="0 0 9 14">
+                        <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="modal" id="request" style="display: none;">
+        <div class="modal__wrapper">
+          <div class="modal__side">
+            <div class="modal__title">Оставьте заявку</div><span>И мы перезвоним вам в ближайшее время</span>
+            <button class="modal__close" data-fancybox-close="data-fancybox-close">
+              <svg width="35" height="35" viewBox="0 0 36 35">
+                <use xlink:href="images/sprite.svg#icon-union"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="modal__main">
+            <div class="modal__row">
+              <label class="field"><span class="field__title">Ваше имя</span><span class="field__main">
+                  <input class="field__input" type="text" required="required"></input></span>
+              </label>
+            </div>
+            <div class="modal__row">
+              <label class="field"><span class="field__title">Номер телефона</span><span class="field__main">
+                  <input class="field__input" type="text" required="required"></input></span>
+              </label>
+            </div>
+            <div class="modal__row">
+              <div class="field__title">Тип организации</div>
+              <select>
+                <option>Розничная торговля</option>
+                <option>Оптовая торговля</option>
+              </select>
+            </div>
+            <button class="button modal__button" type="button"><span class="button__content"><span class="button__title">Отправить заявку</span></span></button>
+          </div>
+        </div>
       </div>
     </main>
     <footer class="body__footer">
+      <div class="footer block">
+        <div class="footer__wrapper block__wrapper">
+          <div class="footer__main">
+            <div class="footer__col">
+              <div class="footer__title">Продукция</div>
+              <ul class="footer__sub-nav sub-nav sub-nav_footer">
+                <li><a href="#">Квас</a></li>
+                <li><a href="#">Морс</a></li>
+                <li><a href="#">Сок</a></li>
+                <li><a href="#">Овощная закуса</a></li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <div class="footer__title">Информация</div>
+              <ul class="footer__sub-nav sub-nav sub-nav_footer">
+                <li><a href="#">Партнёрам</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Карьера</a></li>
+                <li><a href="#">Где купить</a></li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <div class="footer__title">Новости / статьи</div>
+              <ul class="footer__sub-nav sub-nav sub-nav_footer">
+                <li><a href="#">Новости / мероприятия</a></li>
+                <li><a href="#">Статьи о пользе</a></li>
+                <li><a href="#">Рецепты</a></li>
+                <li><a href="#">Отзывы потребителей</a></li>
+              </ul>
+            </div>
+            <div class="footer__col footer__col_ml-auto">
+              <ul class="footer__contacts contacts contacts_vertical">
+                <li class="contacts__item"><a class="contacts__link" href="mailto:ask@altaykvas.ru">
+                    <div class="contacts__img">
+                      <svg width="15" height="12" viewBox="0 0 15 12">
+                        <use xlink:href="images/sprite.svg#icon-message"></use>
+                      </svg>
+                    </div><span>ask@altaykvas.ru</span>
+                  </a></li>
+                <li class="contacts__item"><a class="contacts__link" href="tel:+73852606060">
+                    <svg width="7" height="9" viewBox="0 0 7 9">
+                      <use xlink:href="images/sprite.svg#icon-phone"></use>
+                    </svg><span>+ 7 (3852) 60 60 60</span></a></li>
+                <li class="contacts__item"> <a class="contacts__link" href="https://www.instagram.com/frontend_u/?hl=ru"><img src="images/insta.svg" alt="" /></a></li>
+              </ul>
+              <a class="button button_md-white footer__button" href="#" data-fancybox="" data-src="#request"><span class="button__content"><span class="button__title">Запросить прайс</span></span></a>
+            </div>
+          </div>
+          <div class="footer__side"><span class="footer__copyright">© 2018 ООО «АЛТАЙ-ПРОДУКТ». </span>
+            <div class="footer__authors"><span>Разработка сайта — </span><a href="#">Название компании</a></div>
+          </div>
+        </div>
+      </div>
     </footer>
   </div>
   <script src="scripts/bundle.js" defer="defer"></script>
