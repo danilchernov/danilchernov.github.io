@@ -352,6 +352,38 @@
           <button class="button news__button button_white" type="button"><span class="button__content"><span class="button__title">Просмотреть все новости</span></span></button>
         </div>
       </div>
+      <div class="modal" id="request" style="display: none;">
+        <div class="modal__wrapper">
+          <div class="modal__side">
+            <div class="modal__title">Оставьте заявку</div><span>И мы перезвоним вам в ближайшее время</span>
+            <button class="modal__close" data-fancybox-close="data-fancybox-close">
+              <svg width="35" height="35" viewBox="0 0 36 35">
+                <use xlink:href="images/sprite.svg#icon-union"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="modal__main">
+            <div class="modal__row">
+              <label class="field"><span class="field__title">Ваше имя</span><span class="field__main">
+                  <input class="field__input" type="text" required="required"></input></span>
+              </label>
+            </div>
+            <div class="modal__row">
+              <label class="field"><span class="field__title">Номер телефона</span><span class="field__main">
+                  <input class="field__input" type="text" required="required"></input></span>
+              </label>
+            </div>
+            <div class="modal__row">
+              <div class="field__title">Тип организации</div>
+              <select>
+                <option>Розничная торговля</option>
+                <option>Оптовая торговля</option>
+              </select>
+            </div>
+            <button class="button modal__button" type="button"><span class="button__content"><span class="button__title">Отправить заявку</span></span></button>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="body__footer">
       <div class="footer block">
