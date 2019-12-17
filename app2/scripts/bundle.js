@@ -30392,7 +30392,7 @@
     Swiper.use(components);
 
     var gallery = (function () {
-      var slides = document.querySelectorAll('.js-categories-slide-with-gallery');
+      var slides = document.querySelectorAll('.js-gallery');
 
       if (slides.length) {
         slides.forEach(function (slide, index) {
