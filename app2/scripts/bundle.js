@@ -30421,6 +30421,27 @@
       }
     });
 
+    var vacancy = (function () {
+      var $vacancies = $('.js-vacancy');
+
+      if ($vacancies.length) {
+        $vacancies.each(function () {
+          var $vacancy = $(this);
+          var $side = $vacancy.find('.vacancy__side');
+          var $main = $vacancy.find('.vacancy__main');
+          var $toggle = $vacancy.find('.vacancy__toggle');
+
+          var clickHandler = function clickHandler(event) {
+            $side.toggleClass('is-active');
+            $toggle.toggleClass('is-active');
+            $main.slideToggle();
+          };
+
+          $side.on('click', clickHandler);
+        });
+      }
+    });
+
     openCloseMenu();
     sectionSlider();
     scenes();
@@ -30430,5 +30451,6 @@
     modal();
     customSelect();
     gallery();
+    vacancy();
 
 })));
