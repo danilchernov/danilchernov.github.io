@@ -30432,6 +30432,8 @@
           var $toggle = $vacancy.find('.vacancy__toggle');
 
           var clickHandler = function clickHandler(event) {
+            event.preventDefault();
+            $vacancy.toggleClass('is-active');
             $side.toggleClass('is-active');
             $toggle.toggleClass('is-active');
             $main.slideToggle();
