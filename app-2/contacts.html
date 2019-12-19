@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Контакты 📞
+  </title>
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=1b36a69d-3b74-4985-be09-c7bb6ff94a23&amp;lang=ru_RU" type="text/javascript"></script>
+</head>
+
+<body class="body">
+  <div class="body__wrapper">
+    <header class="body__header">
+      <div class="header">
+        <div class="header__wrapper">
+          <div class="header-top block">
+            <div class="header-top__wrapper block__wrapper">
+              <div class="header-top__main">
+                <div class="header-top__sub-nav">
+                  <ul class="sub-nav is-horizontal">
+                    <li><a href="#">Новости / мероприятия</a></li>
+                    <li><a href="#">Статьи о пользе</a></li>
+                    <li><a href="#">Рецепты</a></li>
+                    <li><a href="#">Отзывы потребителей</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header-top__side">
+                <ul class="contacts">
+                  <li class="contacts__item"><a class="contacts__link" href="mailto:ask@altaykvas.ru">
+                      <div class="contacts__img">
+                        <svg width="15" height="12" viewBox="0 0 15 12">
+                          <use xlink:href="images/sprite.svg#icon-message"></use>
+                        </svg>
+                      </div><span>ask@altaykvas.ru</span>
+                    </a></li>
+                  <li class="contacts__item"><a class="contacts__link" href="tel:+73852606060">
+                      <svg width="7" height="9" viewBox="0 0 7 9">
+                        <use xlink:href="images/sprite.svg#icon-phone"></use>
+                      </svg><span>+ 7 (3852) 60 60 60</span></a></li>
+                  <li class="contacts__item"> <a class="contacts__link" href="https://www.instagram.com/frontend_u/?hl=ru"><img src="images/insta.svg" alt="" /></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="header-bottom block">
+            <div class="header-bottom__wrapper block__wrapper">
+              <div class="header-bottom__side"><a class="logo" href="/" title="Главная страница"><img src="images/logo.png" alt="Логотип" /></a>
+                <ul class="header-bottom__contacts contacts contacts_row">
+                  <li class="contacts__item"><a class="contacts__link" href="mailto:ask@altaykvas.ru">
+                      <svg width="15" height="12" viewBox="0 0 15 12">
+                        <use xlink:href="images/sprite.svg#icon-message"></use>
+                      </svg><span>ask@altaykvas.ru</span></a></li>
+                  <li class="contacts__item"><a class="contacts__link" href="tel:+73852606060">
+                      <svg width="7" height="9" viewBox="0 0 7 9">
+                        <use xlink:href="images/sprite.svg#icon-phone"></use>
+                      </svg><span>+ 7 (3852) 60 60 60</span></a></li>
+                  <li class="contacts__item"> <a class="contacts__link" href="https://www.instagram.com/frontend_u/?hl=ru"><img class="contacts__img" src="images/insta.svg" alt="" /></a></li>
+                </ul>
+                <button class="header-bottom__button js-menu-button" type="button"> <span></span><span></span><span></span><span></span></button>
+              </div>
+              <div class="header-bottom__main js-site-navigation">
+                <div class="header-bottom__navigation">
+                  <nav class="navigation">
+                    <div class="navigation__wrapper">
+                      <ul class="navigation__list">
+                        <li class="navigation__item navigation__item_has-children"><span class="navigation__link">Каталог продукции</span>
+                          <ul class="navigation__list navigation__list_inner">
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Квасы</span><img src="images/nav-bottle-1.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Морсы</span><img src="images/nav-bottle-2.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Соки</span><img src="images/nav-bottle-2.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Овозщны закуски</span><img src="images/nav-bottle-3.png" /></a></li>
+                          </ul>
+                        </li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">Партнёрам</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">О компании</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">Карьера</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">Контакты / где купить</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+                <div class="header-bottom__sub-nav">
+                  <ul class="sub-nav is-vertical">
+                    <li><a href="#">Новости / мероприятия</a></li>
+                    <li><a href="#">Статьи о пользе</a></li>
+                    <li><a href="#">Рецепты</a></li>
+                    <li><a href="#">Отзывы потребителей</a></li>
+                  </ul>
+                </div>
+                <ul class="header-bottom__contacts contacts">
+                  <li class="contacts__item"><a class="contacts__link" href="mailto:ask@altaykvas.ru"> <span>ask@altaykvas.ru</span></a></li>
+                  <li class="contacts__item"><a class="contacts__link" href="tel:+73852606060"> <span>+ 7 (3852) 60 60 60</span></a></li>
+                  <li class="contacts__item"> <a class="contacts__link" href="https://www.instagram.com/frontend_u/?hl=ru"><img class="contacts__img" src="images/insta.svg" alt="" /></a></li>
+                </ul>
+                <div class="header-bottom__action">
+                  <a class="button button_md-white" href="#" data-fancybox="" data-src="#request"><span class="button__content"><span class="button__title">Запросить прайс</span></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="body__content">
+      <div class="pagination block">
+        <div class="pagination__wrapper block__wrapper">
+          <ul class="pagination__list">
+            <li class="pagination__item"><a class="pagination__link" href="#">Главная</a></li>
+            <li class="pagination__item"><a class="pagination__link pagination__link_current" href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="map">
+        <div class="map__wrapper">
+          <div class="map__side">
+            <div class="map__title">Контакты</div>
+          </div>
+          <div class="map__main">
+            <div class="map__map js-map" id="map" style="width: 100%; height=100%;"></div>
+            <div class="map__container">
+              <div class="map__map-card map-card">
+                <div class="map-card__item map-card__item_pin">
+                  <div class="map-card__icon map-card__icon_pin">
+                    <svg width="15" height="20" viewBox="0 0 15 20">
+                      <use xlink:href="images/sprite.svg#icon-pin"></use>
+                    </svg>
+                  </div>
+                  <address class="map-card__address">Алтайский край, г. Барнаул, ул. Сиреневая, 23</address>
+                </div>
+                <div class="map-card__item map-card__item_phone">
+                  <div class="map-card__icon map-card__icon_phone">
+                    <svg width="19" height="18" viewBox="0 0 19 18">
+                      <use xlink:href="images/sprite.svg#icon-phone-2"></use>
+                    </svg>
+                  </div>
+                  <div class="map-card__phones">
+                    <div class="map-card__phone"><a href="tel:+73252608578">+7 (3252) 60 - 85 - 78</a><span>Отдел кадров</span></div>
+                    <div class="map-card__phone"><a href="tel:+73252608578">+7 (3252) 60 - 85 - 78</a><span>Коммерческий отдел</span></div>
+                  </div>
+                </div>
+                <div class="map-card__item map-card__item_clock">
+                  <div class="map-card__icon map-card__icon_clock">
+                    <svg width="19" height="19" viewBox="0 0 19 19">
+                      <use xlink:href="images/sprite.svg#icon-clock"></use>
+                    </svg>
+                  </div>
+                  <div class="map-card__times">
+                    <div class="map-card__time"><span>Пн-пт:</span>09:00 — 18:00</div>
+                    <div class="map-card__time"><span>Cб, вс:</span>Выходной</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="partners">
+        <div class="partners__wrapper">
+          <div class="partners__side block__wrapper">
+            <div class="partners__title">Где вы можете купить нашу продукцию?</div>
+          </div>
+          <div class="partners__container">
+            <ul class="partners__list block__wrapper" data-tabs="data-tabs">
+              <li><a data-tabby-default="data-tabby-default" href="#id-1">Алтайский край</a></li>
+              <li><a href="#id-2">Республика Алтай</a></li>
+              <li><a href="#id-3">Томская область</a></li>
+              <li><a href="#id-4">Новосибирская область</a></li>
+            </ul>
+          </div>
+          <div class="partners__container block__wrapper">
+            <div id="id-1">
+              <div class="partner">
+                <div class="partner__wrapper">
+                  <div class="partner__item"><img src="images/partner-1.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-2.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-3.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-1.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-2.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-3.png" alt="" /></div>
+                </div>
+              </div>
+            </div>
+            <div id="id-2">
+              <div class="partner">
+                <div class="partner__wrapper">
+                  <div class="partner__item"><img src="images/partner-1.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-2.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-3.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-1.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-2.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-3.png" alt="" /></div>
+                </div>
+              </div>
+            </div>
+            <div id="id-3">
+              <div class="partner">
+                <div class="partner__wrapper">
+                  <div class="partner__item"><img src="images/partner-1.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-2.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-3.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-1.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-2.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-3.png" alt="" /></div>
+                </div>
+              </div>
+            </div>
+            <div id="id-4">
+              <div class="partner">
+                <div class="partner__wrapper">
+                  <div class="partner__item"><img src="images/partner-1.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-2.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-3.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-1.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-2.png" alt="" /></div>
+                  <div class="partner__item"><img src="images/partner-3.png" alt="" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal" id="request" style="display: none;">
+        <div class="modal__wrapper">
+          <div class="modal__side">
+            <div class="modal__title">Оставьте заявку</div><span>И мы перезвоним вам в ближайшее время</span>
+            <button class="modal__close" data-fancybox-close="data-fancybox-close">
+              <svg width="35" height="35" viewBox="0 0 36 35">
+                <use xlink:href="images/sprite.svg#icon-union"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="modal__main">
+            <div class="modal__row">
+              <label class="field"><span class="field__title">Ваше имя</span><span class="field__main">
+                  <input class="field__input" type="text" required="required"></input></span>
+              </label>
+            </div>
+            <div class="modal__row">
+              <label class="field"><span class="field__title">Номер телефона</span><span class="field__main">
+                  <input class="field__input" type="text" required="required"></input></span>
+              </label>
+            </div>
+            <div class="modal__row">
+              <div class="field__title">Тип организации</div>
+              <select>
+                <option>Розничная торговля</option>
+                <option>Оптовая торговля</option>
+              </select>
+            </div>
+            <button class="button modal__button" type="button"><span class="button__content"><span class="button__title">Отправить заявку</span></span></button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="body__footer">
+      <div class="footer block">
+        <div class="footer__wrapper block__wrapper">
+          <div class="footer__main">
+            <div class="footer__col">
+              <div class="footer__title">Продукция</div>
+              <ul class="footer__sub-nav sub-nav sub-nav_footer">
+                <li><a href="#">Квас</a></li>
+                <li><a href="#">Морс</a></li>
+                <li><a href="#">Сок</a></li>
+                <li><a href="#">Овощная закуса</a></li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <div class="footer__title">Информация</div>
+              <ul class="footer__sub-nav sub-nav sub-nav_footer">
+                <li><a href="#">Партнёрам</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Карьера</a></li>
+                <li><a href="#">Где купить</a></li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <div class="footer__title">Новости / статьи</div>
+              <ul class="footer__sub-nav sub-nav sub-nav_footer">
+                <li><a href="#">Новости / мероприятия</a></li>
+                <li><a href="#">Статьи о пользе</a></li>
+                <li><a href="#">Рецепты</a></li>
+                <li><a href="#">Отзывы потребителей</a></li>
+              </ul>
+            </div>
+            <div class="footer__col footer__col_ml-auto">
+              <ul class="footer__contacts contacts contacts_vertical">
+                <li class="contacts__item"><a class="contacts__link" href="mailto:ask@altaykvas.ru">
+                    <div class="contacts__img">
+                      <svg width="15" height="12" viewBox="0 0 15 12">
+                        <use xlink:href="images/sprite.svg#icon-message"></use>
+                      </svg>
+                    </div><span>ask@altaykvas.ru</span>
+                  </a></li>
+                <li class="contacts__item"><a class="contacts__link" href="tel:+73852606060">
+                    <svg width="7" height="9" viewBox="0 0 7 9">
+                      <use xlink:href="images/sprite.svg#icon-phone"></use>
+                    </svg><span>+ 7 (3852) 60 60 60</span></a></li>
+                <li class="contacts__item"> <a class="contacts__link" href="https://www.instagram.com/frontend_u/?hl=ru"><img src="images/insta.svg" alt="" /></a></li>
+              </ul>
+              <a class="button button_md-white footer__button" href="#" data-fancybox="" data-src="#request"><span class="button__content"><span class="button__title">Запросить прайс</span></span></a>
+            </div>
+          </div>
+          <div class="footer__side"><span class="footer__copyright">© 2018 ООО «АЛТАЙ-ПРОДУКТ». </span>
+            <div class="footer__authors"><span>Разработка сайта — </span><a href="#">Название компании</a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/bundle.js" defer="defer"></script>
+  </div>
+</body>
+
+</html>
