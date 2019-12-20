@@ -10816,6 +10816,29 @@
       });
     });
 
+    var toggleMenu = (function () {
+      var $toggles = $('.js-toggle-menu');
+
+      if ($toggles.length) {
+        var viewport = $(window).width();
+        $toggles.each(function () {
+          var $toggle = $(this);
+
+          if (viewport >= 1000) {
+            $toggle.hover(function () {
+              $toggle.addClass('is-open');
+            }, function () {
+              $toggle.removeClass('is-open');
+            });
+          }
+
+          $toggle.click(function () {
+            $toggle.toggleClass('is-open');
+          });
+        });
+      }
+    });
+
     /**
      * Owl Carousel v2.3.4
      * Copyright 2013-2018 David Deutsch
@@ -15301,7 +15324,7 @@
           $list.owlCarousel(options);
 
           function sliderInit() {
-            if (!withUrlFunctionality) checkCurrentLink();
+            if (!hash) checkCurrentLink();
           }
 
           function checkCurrentLink($el) {
@@ -30562,6 +30585,7 @@
     });
 
     openCloseMenu();
+    toggleMenu();
     sectionSlider();
     scenes();
     categoriesSlider();

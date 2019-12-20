@@ -67,8 +67,15 @@
                   <nav class="navigation">
                     <div class="navigation__wrapper">
                       <ul class="navigation__list">
-                        <li class="navigation__item navigation__item_large-menu"><span class="navigation__link">Каталог продукции</span>
+                        <li class="navigation__item navigation__item_large-menu js-toggle-menu"><span class="navigation__link">Каталог продукции</span>
                           <ul class="navigation__list navigation__list_large">
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Квасы</span><img src="images/nav-bottle-1.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Морсы</span><img src="images/nav-bottle-2.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Соки</span><img src="images/nav-bottle-2.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Квасы</span><img src="images/nav-bottle-1.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Морсы</span><img src="images/nav-bottle-2.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Соки</span><img src="images/nav-bottle-2.png" /></a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#"><span>Овозщны закуски</span><img src="images/nav-bottle-3.png" /></a></li>
                             <li class="navigation__item"><a class="navigation__link" href="#"><span>Квасы</span><img src="images/nav-bottle-1.png" /></a></li>
                             <li class="navigation__item"><a class="navigation__link" href="#"><span>Морсы</span><img src="images/nav-bottle-2.png" /></a></li>
                             <li class="navigation__item"><a class="navigation__link" href="#"><span>Соки</span><img src="images/nav-bottle-2.png" /></a></li>
@@ -77,7 +84,7 @@
                         </li>
                         <li class="navigation__item"><a class="navigation__link" href="#">Партнёрам</a></li>
                         <li class="navigation__item"><a class="navigation__link" href="#">О компании</a></li>
-                        <li class="navigation__item navigation__item_small-menu"><span class="navigation__link">Карьера</span>
+                        <li class="navigation__item navigation__item_small-menu js-toggle-menu"><span class="navigation__link">Карьера</span>
                           <ul class="navigation__list navigation__list_small">
                             <li class="navigation__item"><a class="navigation__link" href="#">Работа у нас</a></li>
                             <li class="navigation__item"><a class="navigation__link" href="#">Открытые вакансии</a></li>
@@ -111,22 +118,26 @@
       </div>
     </header>
     <main class="body__content">
-      <div class="breadcrumbs block">
-        <div class="breadcrumbs__wrapper block__wrapper">
-          <ul class="breadcrumbs__list">
-            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
-            <li class="breadcrumbs__item"><a class="breadcrumbs__link breadcrumbs__link_current" href="#">Партнёрам</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="general-intro block">
-        <div class="general-intro__wrapper block__wrapper">
-          <div class="general-intro__main">
-            <div class="general-intro__title">Партнёрам </div>
-            <p>Продукция компании «Алтай-продукт» представлена в Алтайском крае, Республике Алтай, Новосибирской области, Томской области и Красноярском крае.</p>
-            <p>Наша продукция востребована в розничных сетях, продуктовых магазинах, фермерских рынках и магазинах полезных продуктов. Мы предлагаем партнерам выгодные, индивидуальные условия и ориентированы на совметсный рост и развите!</p>
+      <div class="block">
+        <div class="block__wrapper block__wrapper_overflow">
+          <div class="breadcrumbs">
+            <div class="breadcrumbs__wrapper block__wrapper block__wrapper_pos-static">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+                <li class="breadcrumbs__item"><span class="breadcrumbs__link breadcrumbs__link_current" href="#">Партнёрам</span></li>
+              </ul>
+            </div>
           </div>
-          <div class="general-intro__side"><img class="general-intro__img" src="images/partners-intro.png" /></div>
+          <div class="general-intro">
+            <div class="general-intro__wrapper block__wrapper block__wrapper_pos-static">
+              <div class="general-intro__main general-intro__main_padding-large">
+                <div class="general-intro__title">Партнёрам </div>
+                <p>Продукция компании «Алтай-продукт» представлена в Алтайском крае, Республике Алтай, Новосибирской области, Томской области и Красноярском крае.</p>
+                <p>Наша продукция востребована в розничных сетях, продуктовых магазинах, фермерских рынках и магазинах полезных продуктов. Мы предлагаем партнерам выгодные, индивидуальные условия и ориентированы на совметсный рост и развите!</p>
+              </div>
+              <div class="general-intro__side"><img class="general-intro__img general-intro__img_pos-a" src="images/partners-intro.png" /></div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="features features_inner features_partners block">
