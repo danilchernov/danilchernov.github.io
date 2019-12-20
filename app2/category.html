@@ -67,8 +67,8 @@
                   <nav class="navigation">
                     <div class="navigation__wrapper">
                       <ul class="navigation__list">
-                        <li class="navigation__item navigation__item_has-children"><span class="navigation__link">Каталог продукции</span>
-                          <ul class="navigation__list navigation__list_inner">
+                        <li class="navigation__item navigation__item_large-menu"><span class="navigation__link">Каталог продукции</span>
+                          <ul class="navigation__list navigation__list_large">
                             <li class="navigation__item"><a class="navigation__link" href="#"><span>Квасы</span><img src="images/nav-bottle-1.png" /></a></li>
                             <li class="navigation__item"><a class="navigation__link" href="#"><span>Морсы</span><img src="images/nav-bottle-2.png" /></a></li>
                             <li class="navigation__item"><a class="navigation__link" href="#"><span>Соки</span><img src="images/nav-bottle-2.png" /></a></li>
@@ -77,7 +77,12 @@
                         </li>
                         <li class="navigation__item"><a class="navigation__link" href="#">Партнёрам</a></li>
                         <li class="navigation__item"><a class="navigation__link" href="#">О компании</a></li>
-                        <li class="navigation__item"><a class="navigation__link" href="#">Карьера</a></li>
+                        <li class="navigation__item navigation__item_small-menu"><span class="navigation__link">Карьера</span>
+                          <ul class="navigation__list navigation__list_small">
+                            <li class="navigation__item"><a class="navigation__link" href="#">Работа у нас</a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#">Открытые вакансии</a></li>
+                          </ul>
+                        </li>
                         <li class="navigation__item"><a class="navigation__link" href="#">Контакты / где купить</a></li>
                       </ul>
                     </div>
@@ -108,11 +113,11 @@
     <main class="body__content">
       <div class="category-intro block" style="background-image: url(&quot;images/category-intro-bg.jpg&quot;)">
         <div class="category-intro__wrapper block__wrapper">
-          <div class="category-intro__pagination pagination pagination_light">
-            <div class="pagination__wrapper">
-              <ul class="pagination__list">
-                <li class="pagination__item"><a class="pagination__link" href="#">Главная</a></li>
-                <li class="pagination__item"><a class="pagination__link pagination__link_current" href="#">Квас</a></li>
+          <div class="category-intro__breadcrumbs breadcrumbs breadcrumbs_light">
+            <div class="breadcrumbs__wrapper">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link breadcrumbs__link_current" href="#">Квас</a></li>
               </ul>
             </div>
           </div>
@@ -486,7 +491,7 @@
           </div>
         </div>
       </div>
-      <div class="modal" id="request" style="display: none;">
+      <form class="modal" id="request" style="display: none;">
         <div class="modal__wrapper">
           <div class="modal__side">
             <div class="modal__title">Оставьте заявку</div><span>И мы перезвоним вам в ближайшее время</span>
@@ -517,7 +522,7 @@
             <button class="button modal__button" type="button"><span class="button__content"><span class="button__title">Отправить заявку</span></span></button>
           </div>
         </div>
-      </div>
+      </form>
     </main>
     <footer class="body__footer">
       <div class="footer block">

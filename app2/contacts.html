@@ -68,8 +68,8 @@
                   <nav class="navigation">
                     <div class="navigation__wrapper">
                       <ul class="navigation__list">
-                        <li class="navigation__item navigation__item_has-children"><span class="navigation__link">Каталог продукции</span>
-                          <ul class="navigation__list navigation__list_inner">
+                        <li class="navigation__item navigation__item_large-menu"><span class="navigation__link">Каталог продукции</span>
+                          <ul class="navigation__list navigation__list_large">
                             <li class="navigation__item"><a class="navigation__link" href="#"><span>Квасы</span><img src="images/nav-bottle-1.png" /></a></li>
                             <li class="navigation__item"><a class="navigation__link" href="#"><span>Морсы</span><img src="images/nav-bottle-2.png" /></a></li>
                             <li class="navigation__item"><a class="navigation__link" href="#"><span>Соки</span><img src="images/nav-bottle-2.png" /></a></li>
@@ -78,7 +78,12 @@
                         </li>
                         <li class="navigation__item"><a class="navigation__link" href="#">Партнёрам</a></li>
                         <li class="navigation__item"><a class="navigation__link" href="#">О компании</a></li>
-                        <li class="navigation__item"><a class="navigation__link" href="#">Карьера</a></li>
+                        <li class="navigation__item navigation__item_small-menu"><span class="navigation__link">Карьера</span>
+                          <ul class="navigation__list navigation__list_small">
+                            <li class="navigation__item"><a class="navigation__link" href="#">Работа у нас</a></li>
+                            <li class="navigation__item"><a class="navigation__link" href="#">Открытые вакансии</a></li>
+                          </ul>
+                        </li>
                         <li class="navigation__item"><a class="navigation__link" href="#">Контакты / где купить</a></li>
                       </ul>
                     </div>
@@ -224,7 +229,7 @@
           </div>
         </div>
       </div>
-      <div class="modal" id="request" style="display: none;">
+      <form class="modal" id="request" style="display: none;">
         <div class="modal__wrapper">
           <div class="modal__side">
             <div class="modal__title">Оставьте заявку</div><span>И мы перезвоним вам в ближайшее время</span>
@@ -255,7 +260,7 @@
             <button class="button modal__button" type="button"><span class="button__content"><span class="button__title">Отправить заявку</span></span></button>
           </div>
         </div>
-      </div>
+      </form>
     </main>
     <footer class="body__footer">
       <div class="footer block">
