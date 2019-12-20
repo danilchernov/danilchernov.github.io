@@ -15781,7 +15781,7 @@
       if ($images.length) {
         $images.each(function () {
           var $image = $(this);
-          $image.unveil(200, function () {
+          $image.unveil(500, function () {
             $(this).load(function () {
               this.style.opacity = 1;
             });
@@ -30482,7 +30482,7 @@
               iconImageHref: '../images/pin.png',
               iconImageSize: [45, 60]
             });
-            map.behaviors.disable(['scrollZoom']);
+            map.behaviors.disable(['scrollZoom', 'drag']);
             map.geoObjects.add(placemark);
           }
         };
