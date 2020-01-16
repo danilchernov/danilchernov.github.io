@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Moni 🌟
+  </title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=b750eee1-3a58-4691-bd74-8e3e5c3681c1&lang=ru_RU"></script>
+</head>
+
+<body class="body">
+  <div class="body__wrapper">
+    <header class="body__header">
+      <header class="header block">
+        <div class="header__wrapper block__wrapper">
+          <div class="header__side">
+            <div class="header__col"><a class="header__logo logo" href="/" aria-label="Логотип">
+                <svg width="117" height="43" viewBox="0 0 117 43">
+                  <use xlink:href="images/sprite.svg#Icons_Logo"></use>
+                </svg></a></div>
+            <div class="header__col"><a class="link link_td-n" href="tel:88005502311" title="Телефон службы поддержки 📞">8 (800) 550-2311</a>
+              <p>Заявки принимаются только на сайте!</p>
+            </div>
+            <div class="header__col header__col_ml-a header__col_lg-hidden">
+              <div class="header__note note"><span>Ваша заявка</span>
+                <div class="note__icon note__icon_side-right">
+                  <svg width="16" height="16" viewBox="0 0 16 16">
+                    <use xlink:href="images/sprite.svg#Icons_Star"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="header__col header__col_lg-hidden">
+              <button class="button button_rounded button_transparent" type="button"><span class="button__content"><span class="button__title">Рассчитать заём</span></span></button>
+            </div>
+            <div class="header__col header__col_ml-large header__col_lg-ml-auto header__col_sm-pos-a"><a class="header__menu-button menu-button menu-button_burger" href="#sidebar" aria-label="Открыть меню"><span></span><span></span><span></span></a></div>
+          </div>
+        </div>
+      </header>
+    </header>
+    <main class="body__content">
+      <section class="intro block">
+        <div class="intro__bg"></div>
+        <div class="intro__wrapper block__wrapper">
+          <div class="intro__main">
+            <h2 class="intro__title">
+              Рассчитайте ваше <br><span>индивидуальное предложение </span></h2>
+            <div class="intro__custom-range-slider custom-range-slider js-custom-range-slider">
+              <div class="custom-range-slider__wrapper">
+                <div class="custom-range-slider__top"><span class="custom-range-slider__subtitle">Сумма кредита:</span>
+                  <div class="custom-range-slider__note"><span class="custom-range-slider__note-icon">
+                      <svg width="28" height="28" viewBox="0 0 28 28">
+                        <use xlink:href="images/sprite.svg#icon-wallet"></use>
+                      </svg></span><span class="custom-range-slider__note-total"><span class="custom-range-slider__note-total-number js-custom-range-slider-total">25 000</span><span class="custom-range-slider__note-total-postfix">руб</span></span></div>
+                </div>
+                <template id="tooltip" style="display: none;">
+                  <div class="custom-range-slider__tooltip js-tooltip">
+                    <div class="tooltip">
+                      <div class="tooltip__wrapper">
+                        <div class="tooltip__total">
+                          <div class="tooltip__number js-tooltip-number">25 000</div>
+                          <div class="tooltip__postfix">руб</div>
+                        </div>
+                        <div class="tooltip__note">от 15 до 25 дней</div>
+                      </div>
+                    </div>
+                  </div>
+                </template>
+                <div class="custom-range-slider__mid">
+                  <div class="custom-range-slider__target js-custom-range-slider-target"></div>
+                </div>
+                <div class="custom-range-slider__footer">
+                  <button class="button custom-range__footer button_full js-ripple" type="button"><span class="button__content"><span class="button__title">Рассчитать заём</span></span></button>
+                </div>
+              </div>
+            </div>
+            <p>Займы от<span> 25 000 руб. </span>выдаются на срок<span>от 15 до 25 дней</span></p>
+            <p>Внимание! Услуга обработки заявки платная и составляет <a class="note note_focus note_dashed note_tt-n note_lts-normal" href="#"> <span>от 49 до 299 руб.</span><span class="note__icon note__icon_side-right">
+                  <svg width="16" height="16" viewBox="0 0 16 16">
+                    <use xlink:href="images/sprite.svg#icon-question"></use>
+                  </svg></span></a></p>
+          </div>
+          <div class="intro__side"><img class="intro__pig" src="images/pig.png" alt="Денежная свинюшка 🐷" /></div>
+        </div>
+      </section>
+      <section class="service block">
+        <div class="service__wrapper block__wrapper">
+          <h1 class="service__title">О сервисе</h1>
+          <div class="service__row">
+            <div class="service__col">
+              <p>Для получения займа онлайн вам&nbsp;понадобится: </p>
+              <ul>
+                <li>
+                  <h3>
+                    <svg width="29" height="30" viewBox="0 0 29 30">
+                      <use xlink:href="images/sprite.svg#Icons_Passport"></use>
+                    </svg><span>Паспорт</span>
+                  </h3>
+                  <p>Вам необходимо явиться гражданином РФ возрастом старше 18 лет</p>
+                </li>
+                <li>
+                  <h3>
+                    <svg width="29" height="30" viewBox="0 0 29 30">
+                      <use xlink:href="images/sprite.svg#Icons_Phone"></use>
+                    </svg><span>Телефон</span>
+                  </h3>
+                  <p>Вам понадобится ввести номер телефона, чтобы с&nbsp;вами могли связаться </p>
+                </li>
+                <li>
+                  <h3>
+                    <svg width="29" height="30" viewBox="0 0 29 30">
+                      <use xlink:href="images/sprite.svg#Icons_Card"></use>
+                    </svg><span>Кредитная карта</span>
+                  </h3>
+                  <p>Вам потребуется карточка с ненулевым балансом</p>
+                </li>
+              </ul>
+            </div>
+            <div class="service__col">
+              <p>Займы предоставляются на сумму&nbsp; <span>от 5&nbsp;000 до&nbsp;50 000 рублей</span> включительно на срок от&nbsp;10 до 44 недель.</p>
+              <h3><span>Соглашения и условия</span></h3>
+              <p>Заполняя анкету на нашем сервисе Вы соглашаетесь с условиями и соглашениями указанными на сайте.</p><a class="link d-flex ai-center" href="#">
+                <svg width="21" height="14" viewBox="0 0 21 14">
+                  <use xlink:href="images/sprite.svg#Icons_PDF"></use>
+                </svg><span>Согласие на обработку ПД</span></a><a class="link d-flex ai-center" href="#">
+                <svg width="21" height="14" viewBox="0 0 21 14">
+                  <use xlink:href="images/sprite.svg#Icons_PDF"></use>
+                </svg><span>Публичная оферта</span></a><a class="link d-flex ai-center" href="#">
+                <svg width="21" height="14" viewBox="0 0 21 14">
+                  <use xlink:href="images/sprite.svg#Icons_PDF"></use>
+                </svg><span>Политика обработки ПД</span></a>
+            </div>
+            <div class="service__col service__col_xl-pos-a">
+              <div class="card">
+                <div class="card__header"><img class="card__img" src="images/jumping-pig.png" alt="Промо-изображение" /></div>
+                <div class="card__content">
+                  <h3 class="card__title">Получите <span>до 50 000 </span>руб <span>за 15 минут.</span></h3>
+                </div>
+                <div class="card__footer">
+                  <button class="button card__button button_full js-ripple" type="button"><span class="button__content"><span class="button__title">Рассчитать заём</span></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts block">
+        <div class="contacts__wrapper block__wrapper">
+          <div class="contacts__main">
+            <div class="contacts__map" id="map"></div>
+            <div class="contacts__row">
+              <div class="contacts__col contacts__col_address">
+                <h3 class="contacts__subtitle">Фактический адрес:</h3>
+                <address>656049, г. Барнаул, пр-т. Красноармейский д. 47</address>
+              </div>
+              <div class="contacts__col contacts__col_details">
+                <div class="contacts__sub-row">
+                  <div class="contacts__item">
+                    <h3 class="contacts__subtitle">Тел:</h3><a class="link td-none" href="tel:+73852229707">8 (3852) 229-707</a>
+                  </div>
+                  <div class="contacts__item">
+                    <h3 class="contacts__subtitle">E-mail:</h3><a class="link td-none" href="mailto:client@good-zaim.ru">client@good-zaim.ru</a>
+                  </div>
+                </div>
+                <div class="contacts__item">
+                  <div class="note note_remark note_fz-large tt-none">
+                    <div class="note__icon d-flex ai-center jc-center note__icon_round note__icon_side-left">
+                      <svg width="16" height="16" viewBox="0 0 16 16">
+                        <use xlink:href="images/sprite.svg#Icons_Star"></use>
+                      </svg>
+                    </div><span>Заявки принимаются только на сайте</span>
+                  </div>
+                </div>
+              </div>
+              <div class="contacts__col contacts__col_ml-auto">
+                <button class="button contacts__button js-ripple" type="button"><span class="button__content"><span class="button__title">Рассчитать заём</span></span></button>
+              </div>
+            </div>
+          </div>
+          <div class="contacts__side">
+            <p>Займы предоставляются на сумму от 5 000 до 50 000 рублей включительно на срок от 10 до 44 недель. Проценты за пользование займом составляют от 173,418 до 287,425 процентов годовых. Расчетная сумма (основной долг и проценты) к возврату от 20 000 до 202 400 рублей. Условия актуальны на 01.05.2017. Пример расчета общей стоимости займа: заём на 15000 руб. и сроком 10 недель; проценты за весь период составят 5000 руб. Итого ПСК 264,392 %. За услуги сервиса может быть взята плата в размере 299р - за активацию сервиса </p>
+            <p>В случае невозвращения в условленный срок суммы кредита или суммы процентов за пользование заёмными средствами кредитор вынуждено начислит штраф за просрочку платежа. Большинство кредиторов идут на уступки и дают 3 дополнительных рабочих дня для оплаты. Они предусмотрены на случай, к примеру, если банковский перевод занял больше времени, чем обычно. Однако, в случае неполучения от Вас какой-либо реакции в течение продолжительного времени, будет начислен штраф за просрочку срока погашения размером в среднем 0,10% от первоначальной суммы для займов, 0,03% от суммы задолженности в среднем для потребительских кредитов и кредитных карт. При несоблюдении Вами условий по погашению кредитов и займов, данные о Вас могут быть переданы в реестр должников или БКИ, что негативно может сказаться на Вашей кредитной истории и рейтинге кредитоспособности. Рекомендуем Вам вносить платеж в день получения данных напоминаний. Погашая задолженность в срок, Вы формируете хорошую кредитную историю, что повышает Ваш рейтинг кредитоспособности и шансы в дальнейшем получить кредит на более выгодных условиях.</p>
+          </div>
+        </div>
+      </section>
+      <div class="mfp mfp-hide" id="sidebar">
+        <aside class="sidebar animated js-sidebar">
+          <div class="sidebar__wrapper js-sidebar">
+            <div class="menu-button menu-button_close mfp-close" href="#">
+              <svg width="16" height="16" viewBox="0 0 16 16">
+                <use xlink:href="images/sprite.svg#Icons_Close"></use>
+              </svg>
+            </div>
+            <nav class="sidebar__navigation navigation">
+              <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link" href="#" title="#" aria-label="#">О сервисе</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#" title="#" aria-label="#">Документы</a></li>
+                <li class="navigation__item"><a class="navigation__link navigation__link_star" href="#" title="#" aria-label="#">Ваша заявка</a></li>
+              </ul>
+            </nav>
+            <ul class="sidebar__user-actions user-actions user-actions_sidebar">
+              <li class="user-actions__item">
+                <button class="button button_full button_rounded button_transparent" type="button"><span class="button__content"><span class="button__title">Рассчитать заём</span></span></button>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <footer class="body__footer">
+      <footer class="footer block">
+        <div class="footer__wrapper block__wrapper">
+          <nav class="footer__navigation navigation navigation_secondary">
+            <ul class="navigation__list">
+              <li class="navigation__item"><a class="navigation__link" href="#" title="#" aria-label="#">Cпособы получения</a></li>
+              <li class="navigation__item"><a class="navigation__link" href="#" title="#" aria-label="#">О сервисе</a></li>
+              <li class="navigation__item"><a class="navigation__link" href="#" title="#" aria-label="#">Документы</a></li>
+              <li class="navigation__item"><a class="navigation__link navigation__link_star" href="#" title="#" aria-label="#">Лучшие предложения</a></li>
+            </ul>
+          </nav>
+          <div class="footer__logo logo logo_secondary">
+            <svg width="117" height="43" viewBox="0 0 117 43">
+              <use xlink:href="images/sprite.svg#Icons_Logo"></use>
+            </svg>
+          </div>
+          <p>Услуги на проекте «hot-zaim.ru» оказываются ИП Стрельчик Е.О. ОРГНИП 317222500001910, ИНН 220802885324, которое действует в интересах и по поручению организации ООО Микрокредитная Компания «Оливин Финанс». Свидетельство о внесении сведений о юридическом лице в государственный реестр микрофинансовых организаций № 001503504007205 Лицензия: 002549 от 25.11.2015, которая на основании ФЗ «О потребительском кредите (займе)» от 21.12.2013 № 353-ФЗ имеет право осуществлять профессиональную деятельность по предоставлению потребительских займов.</p>
+          <p>Проект осуществляет подбор микрозаймов между лицом желающим взять займ, и кредитными учреждениями которые на основании ФЗ «О потребительском кредите (займе)» от 21.12.2013 № 353-ФЗ имеет право осуществлять профессиональную деятельность по предоставлению потребительских займов. Проект не является финансовым учреждением, банком или кредитором, и не несёт ответственности за любые заключенные договоры кредитования или условия. Чтобы оформить заявку на получение займа, Вам необходимо пройти регистрацию и аутентификацию на проекте. Ссылка на документы и разрешительную документацию.</p>
+          <p>Мы являемся операторами персональных данных (<a class="link" href="#">Номер 22-17-001694, 28.08.2017 Приказ № 366-нд</a>).</p>
+          <p>Сервис «hot-zaim.ru» использует куки для предоставления услуг. Условия хранения или доступа к куки Вы можете настроить в своём браузере. Сервис предназначен для лиц старше 18 лет.</p><img class="footer__img" src="images/partners.png" alt="Организации партнёры нашей организации" />
+          <div class="footer__row">
+            <div class="footer__col footer__col_flex-initial">
+              <h3>Внимание!</h3>
+              <p>Услуга обработки заявки является платной и составляет <span>299 руб</span>. Услуга далее по сайту — «Активация сервиса». Активация&nbsp;сервиса не гарантирует вам получение займа.</p>
+              <p>Для отключения подписки удалите карты в <a class="link" href="#"> <span>личном&nbsp;кабинете </span></a> сайта.</p><strong>Заявки принимаются только через форму регистрации на сайте!</strong>
+            </div>
+            <div class="footer__col footer__col_details">
+              <div class="footer__sub-row">
+                <div class="footer__item">
+                  <h3 class="footer__subtitle">Тел:</h3><a class="link td-none" href="tel:+73852229707">8 (3852) 229-707</a>
+                </div>
+                <div class="footer__item">
+                  <h3 class="footer__subtitle">E-mail:</h3><a class="link td-none" href="mailto:client@good-zaim.ru">client@good-zaim.ru</a>
+                </div>
+              </div>
+              <div class="footer__item">
+                <h3 class="footer__subtitle">Почтовый адрес:</h3>
+                <address>656049, г. Барнаул, пр-т. Красноармейский д. 47</address>
+              </div>
+            </div>
+            <div class="footer__col footer__col footer__col_ml-auto d-flex">
+              <div class="footer__warning">18+</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </footer>
+    <script src="scripts/bundle.js" defer="defer"></script>
+  </div>
+</body>
+
+</html>
