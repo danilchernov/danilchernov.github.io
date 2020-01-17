@@ -16201,7 +16201,7 @@
           cursor: 'default'
         }, {
           iconLayout: 'default#image',
-          iconImageHref: '../images/pin.png',
+          iconImageHref: 'images/pin.png',
           iconImageSize: [22, 32]
         });
         map.behaviors.disable(['scrollZoom', 'drag']);
