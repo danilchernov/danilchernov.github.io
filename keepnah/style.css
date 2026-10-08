@@ -1,0 +1,87 @@
+:root {
+  --bg: #fbfaf7;
+  --text: #1d1c1a;
+  --muted: #5f5b55;
+  --link: #1f5fbf;
+  --rule: #e2ded6;
+  --todo-bg: #ffe08a;
+  --todo-text: #3d2c00;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161514;
+    --text: #ece9e3;
+    --muted: #a8a39b;
+    --link: #8ab4f8;
+    --rule: #34312d;
+    --todo-bg: #6b5200;
+    --todo-text: #fff3cc;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+main {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+h1 {
+  font-size: 1.75rem;
+  line-height: 1.25;
+  margin: 0 0 8px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 32px 0 8px;
+}
+
+a {
+  color: var(--link);
+  overflow-wrap: anywhere;
+}
+
+.meta,
+.lang {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.lang {
+  margin: 0 0 24px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+th,
+td {
+  text-align: left;
+  vertical-align: top;
+  padding: 8px 8px 8px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* Text the maintainer must fill in before publishing; tool/site/publish.sh
+   refuses to publish while any is left. */
+.todo {
+  background: var(--todo-bg);
+  color: var(--todo-text);
+  padding: 0 4px;
+  border-radius: 4px;
+}
